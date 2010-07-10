@@ -62,7 +62,7 @@
     (contents . ,contents)))
 
 (defun stag-expand-attributes (attributes)
-  (let ((str (mapconcat (lambda (attribute) (concat  (car attribute) "=\"" (cdr attribute) "\"") ) attributes " ")))
+  (let ((str (mapconcat (lambda (attribute) (concat (car attribute) "=\"" (cdr attribute) "\"")) attributes " ")))
     (if (string< "" str)
         (concat " " str)
       str)))
