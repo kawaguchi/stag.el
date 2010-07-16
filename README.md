@@ -19,8 +19,8 @@ Summary
            (h1 "Stag")
            (ul :class "navi"
              (li (a :href "/menu1" "menu 1"))
-             (li (a :href "/menu1" "menu 2"))
-             (li (a :href "/menu1" "menu 3"))))_
+             (li (a :href "/menu2" "menu 2"))
+             (li (a :href "/menu3" "menu 3"))))_
       </body>
     </html>
 
@@ -38,10 +38,10 @@ press `C-c C-e` at `_`
               <a href="/menu1">menu 1</a>
             </li>
             <li>
-              <a href="/menu1">menu 2</a>
+              <a href="/menu2">menu 2</a>
             </li>
             <li>
-              <a href="/menu1">menu 3</a>
+              <a href="/menu3">menu 3</a>
             </li>
           </ul>
         </div>_
